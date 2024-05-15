@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Equipes</title>
+
+    <style>
+        i {
+            width: 30%;
+            height: 60px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background-color: #ff585835;
+            display: none;
+        }
+    </style>
+</head>
+
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div id="equipes-list">
+    </div>
+
+    <i>
+        <h2 id="error-message" style="color: red;  ">
+        </h2>
+    </i>
+
+    <script src="fetchEquipes.js"></script>
+</body>
+
+</html>
